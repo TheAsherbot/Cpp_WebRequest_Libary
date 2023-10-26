@@ -1,0 +1,20 @@
+﻿Application.obj : error LNK2019: unresolved external symbol curl_global_init referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_global_init
+Application.obj : error LNK2019: unresolved external symbol curl_global_cleanup referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_global_cleanup
+Application.obj : error LNK2019: unresolved external symbol curl_slist_append referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_slist_append
+Application.obj : error LNK2019: unresolved external symbol curl_slist_free_all referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_slist_free_all
+Application.obj : error LNK2019: unresolved external symbol curl_easy_strerror referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_easy_strerror
+Application.obj : error LNK2019: unresolved external symbol curl_easy_init referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_easy_init
+Application.obj : error LNK2019: unresolved external symbol curl_easy_setopt referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_easy_setopt
+Application.obj : error LNK2019: unresolved external symbol curl_easy_perform referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_easy_perform
+Application.obj : error LNK2019: unresolved external symbol curl_easy_cleanup referenced in function "void __cdecl CallWeb(void)" (?CallWeb@@YAXXZ)
+HttpClient.obj : error LNK2001: unresolved external symbol curl_easy_cleanup
+C:\GameDev\C++\School\Cpp_WebRequest_Libary\C++WebRequestLibary\Dependencies\curl\lib\curl.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\GameDev\C++\School\Cpp_WebRequest_Libary\C++WebRequestLibary\\bin\x64\Debug\C++WebRequestLibary.exe : fatal error LNK1120: 9 unresolved externals
